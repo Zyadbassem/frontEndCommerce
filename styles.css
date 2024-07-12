@@ -38,7 +38,7 @@ main {
     margin-top: 140px;
 }
 
-main, form {
+main, .registerInputs {
     width: 100%;
     display: flex;
     align-items: center;
@@ -46,7 +46,29 @@ main, form {
     flex-direction: column;
 }
 .text-over-form {
-    font-size: 30px;
+    font-size: 60px;
     font-weight: 500;
     padding-bottom: 20px;
+}
+
+.registerInputs input{
+    margin: 8px;
+    padding: 5px 20px;
+    background-color: transparent;
+    border: 1px solid rgba(120, 120, 120, 0.4);
+}
+
+input:focus {
+    outline: none;
+}
+
+.sign-button {
+    margin-top: 10px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    padding: 2px 15px;
+    border: 0px;
+    border-radius: 4px;
+    cursor: pointer;
 }
